@@ -17,7 +17,7 @@ function App() {
         <Route path="/hero" element={<HeroSection />} />
 
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
+          <Route path="home" element={<Home />} />
           <Route path="practice" element={<Practice />} />
           <Route path="dictionary" element={<Dictionary />} />
           <Route path="setting" element={<Setting />} />
