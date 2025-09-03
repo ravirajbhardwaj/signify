@@ -6,7 +6,7 @@ export default function Sidebar() {
       <h1 className="text-2xl font-bold text-orange-500 mb-6">Signify</h1>
       <nav className="flex flex-col gap-4">
         <NavLink
-          to="/"
+          to="/home"
           end
           className={({ isActive }) =>
             `px-3 py-2 rounded-lg ${
