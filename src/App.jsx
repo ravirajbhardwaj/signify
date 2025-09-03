@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HeroSection from "./components/HeroSection";
 import SignIn from "./components/SignIn";
-import SignUp from "./components/Signup";
+import SignUp from "./components/SignUp";
 
 import "./index.css";
 import Home from "./pages/Home";
